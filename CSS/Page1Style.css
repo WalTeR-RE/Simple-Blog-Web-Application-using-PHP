@@ -1,0 +1,145 @@
+body{
+	background-color: lightskyblue;
+	display: grid;
+	place-items: center;
+	place-content: center;
+	height: 100vh;
+}
+form{
+	background-color: whitesmoke;
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	border: none;
+	border-radius: 15px;
+	padding: 0 1rem;
+	min-width: 500px;
+}
+
+input{
+
+	padding: 12px;
+	line-height: 2em;
+	margin-bottom: 20px;
+	border: none;
+	font-size: 120%;
+	border-width: 40px;
+	border-radius: 10px;
+	max-width: 600px;
+	width: 400px
+}
+.try{
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+
+	gap: 1rem;
+	width: 1000px;
+	margin: auto;
+}
+.t2{
+	display: flex;
+	gap: 4rem;
+	align-self: center;
+	font-size: 110%;
+}
+a{
+	color: black;
+}
+.head1{
+	font-size:210%;
+	text-align: left;
+	color: black;
+	font-style: italic; 
+	font: bold; ;
+}
+.label1{
+	font-size: 125%;
+	color: black;
+	text-align:left;
+}
+.label2{
+	font-size: 125%; 
+	color: black;
+	text-align:left;
+}
+.Div1{
+	display: flex;
+	justify-content: start;
+	justify-items: start;
+}
+
+#losubmit{
+	background: #ee5684;
+	color: whitesmoke;
+	margin-top: 2rem; 
+	align-self: center;
+}
+.in1{
+	margin: 0 10px 2px;
+	width:auto;
+}
+.head2{
+	font-size:210%;
+	font: bold;
+	font-style: italic;
+}
+#form2 label{
+	font-size: 125%;
+	color: black;
+	text-align:left;
+}
+.div2{
+	display: flex;
+	flex-direction:column;
+	align-self: start;
+}
+#sisubmit{
+	background: #ee5684;
+	color: whitesmoke;
+	margin-top: 2rem;
+}#sisubmit:hover{
+	background-color: #e92862;
+	transition: 0.5s;
+	cursor: pointer;
+	}
+	#losubmit:hover{
+		background-color: #e92862;
+		transition: 0.5s;
+		cursor: pointer;
+		}
+		.link:hover{
+background-color: gray;
+transition: 0.3s;
+border-radius: 0.5rem;
+		}
+		#form3 label{
+			font-size: 150%;
+			color: black;
+			text-align:left;
+		}
+		#form3{
+	background-color: whitesmoke;
+	display: flex;
+	align-items:center;
+	border: none;
+	border-radius: 15px;
+	padding: 0 1rem;
+    width: 1400px;
+		}
+		#form3 select{
+			background-color: gray;
+			display: flex;
+			align-items:center;
+			border: none;
+			border-radius: 15px;
+			padding: 0 1rem;
+			font-size: 150%;
+			min-width: 500px;
+			margin-top: 20px;
+				}
+				.listbox1{
+					margin-top: 20px;
+					min-width: 1400px;
+				}
+				
